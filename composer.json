@@ -1,0 +1,24 @@
+{
+    "name": "acquia/blt-phpcs-precommit-hook",
+    "description": "Runs the blt validate:phpcs command when a commit happens.",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Acquia Engineering",
+            "homepage": "https://www.acquia.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {},
+    "conflict": {
+        "acquia/blt": "<13.5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acquia\\BltPhpcsPrecommitHook\\": "./src/"
+        },
+        "classmap": [
+            "src/Blt/Commands/BltPhpcsPrecommitHook.php"
+        ]
+    }
+}
