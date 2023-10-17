@@ -10,7 +10,7 @@ class BltPhpcsPrecommitHook extends BltTasks {
   /**
    * This will be called after the pre-commit command.
    *
-   * @hook pre-commit
+   * @hook pre-commit internal:git-hook:execute:pre-commit
    */
   public static function preCommit($changed_files): void {
     try {
