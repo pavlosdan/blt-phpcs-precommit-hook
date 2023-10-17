@@ -16,9 +16,6 @@
     "autoload": {
         "psr-4": {
             "Acquia\\BltPhpcsPrecommitHook\\": "./src/"
-        },
-        "classmap": [
-            "src/Blt/Plugin/Commands/BltPhpcsPrecommitHook.php"
-        ]
+        }
     }
 }
