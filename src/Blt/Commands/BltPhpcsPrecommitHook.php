@@ -1,6 +1,6 @@
 <?php
 
-namespace Acquia\BltPhpcsPrecommitHook\Commands;
+namespace Acquia\BltPhpcsPrecommitHook\Blt\Commands;
 
 use Acquia\Blt\Robo\BltTasks;
 use Acquia\Blt\Robo\Exceptions\BltException;
