@@ -12,7 +12,7 @@ class BltPhpcsPrecommitHook extends BltTasks {
    *
    * @hook post-command internal:git-hook:execute:pre-commit
    */
-  public static function preCommit(): void {
+  public function postCommand($result, CommandData $commandData): void {
     try {
       $this->invokeCommand('validate:phpcs');
     } catch (BltException $e) {
