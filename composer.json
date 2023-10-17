@@ -18,7 +18,7 @@
             "Acquia\\BltPhpcsPrecommitHook\\": "./src/"
         },
         "classmap": [
-            "src/BltPhpcsPrecommitHook/Robo/Commands/CommandsBltPhpcsPrecommitHook.php"
+            "src/Robo/Commands/CommandsBltPhpcsPrecommitHook.php"
         ]
     }
 }
