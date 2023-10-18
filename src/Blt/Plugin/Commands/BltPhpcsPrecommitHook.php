@@ -4,13 +4,14 @@ namespace Acquia\BltPhpcsPrecommitHook\Blt\Plugin\Commands;
 
 use Acquia\Blt\Robo\BltTasks;
 use Acquia\Blt\Robo\Exceptions\BltException;
+use Consolidation\AnnotatedCommand\CommandData;
 
 class BltPhpcsPrecommitHook extends BltTasks {
 
   /**
    * This will be called after the pre-commit command.
    *
-   * @hook post-command internal:git-hook:execute:pre-commit
+   * @hook post-command drupal:update
    */
   public function postCommand($result, CommandData $commandData): void {
     try {
